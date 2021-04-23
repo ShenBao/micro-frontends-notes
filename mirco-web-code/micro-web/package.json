@@ -1,0 +1,14 @@
+{
+  "name": "micro-web",
+  "version": "1.0.0",
+  "description": "这是一个实验的微前端框架，请不要下载",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "微前端"
+  ],
+  "author": "ShenBao",
+  "license": "ISC"
+}
