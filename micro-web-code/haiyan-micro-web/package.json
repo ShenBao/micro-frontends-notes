@@ -1,6 +1,6 @@
 {
   "name": "haiyan-micro-web",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "微前端",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ShenBao/micro-frontends-notes/mirco-web-code"
+    "url": "https://github.com/ShenBao/micro-frontends-notes/micro-web-code"
   },
   "keywords": [
     "micro"
