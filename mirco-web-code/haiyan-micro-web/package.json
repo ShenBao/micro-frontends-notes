@@ -1,0 +1,18 @@
+{
+  "name": "haiyan-micro-web",
+  "version": "0.0.1",
+  "description": "微前端",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShenBao/micro-frontends-notes/mirco-web-code"
+  },
+  "keywords": [
+    "micro"
+  ],
+  "author": "ShenBao",
+  "license": "MIT"
+}
