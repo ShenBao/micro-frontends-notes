@@ -2,6 +2,8 @@
 
 微前端学习笔记
 
+## 微前端解决方案
+
 - [single-spa](https://github.com/single-spa/single-spa)
     - [English](https://single-spa.js.org/docs/)
     - [中文](https://zh-hans.single-spa.js.org/docs/)
