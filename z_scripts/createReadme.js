@@ -31,10 +31,11 @@ const readmeTmp = `# micro-frontends-notes
     - [English](https://single-spa.js.org/docs/)
     - [中文](https://zh-hans.single-spa.js.org/docs/)
 - [qiankun](https://qiankun.umijs.org/)
+- [micro-app](https://github.com/micro-zoe/micro-app)
+- [wujie](https://wujie-micro.github.io/doc/)
 - [icestark](https://github.com/ice-lab/icestark)
 - [emp](https://github.com/efoxTeam/emp)
 - [alibabacloud-alfa](https://github.com/aliyun/alibabacloud-alfa)
-- [micro-app](https://github.com/micro-zoe/micro-app)
 
 ## notes
 

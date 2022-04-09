@@ -104,3 +104,6 @@ https://github.com/kuitos/kuitos.github.io/issues/43
 [2021-02-03 更新] webpack5新特性详解 #19
 
 https://github.com/jeddygong/frontend-document/issues/19
+
+Thinking in Microfrontend (微前端的那些事儿)
+https://github.com/phodal/microfrontends
