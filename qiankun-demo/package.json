@@ -1,0 +1,13 @@
+{
+  "name": "qiankun_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./scripts/init.js && node ./scripts/run.js",
+    "clean": "node ./scripts/clean.js",
+    "start-f": "node ./scripts/init.js -f && node ./scripts/run.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
