@@ -4,11 +4,8 @@ const glob = require("glob");
 
 var repName = "micro-frontends-notes";
 var basePath = `https://github.com/ShenBao/${repName}/blob/master`;
-// basePath = '';
 
-let mircoList = "";
-let qiankunList = "";
-let singleSpaList = "";
+let microList = "";
 
 const mdFiles = glob.sync(path.join(__dirname, "../notes/*.md"));
 
@@ -17,9 +14,20 @@ Object.keys(mdFiles).map((index) => {
   const match = entryFile.match(/\/notes\/(.*)\/*\.md/);
   const [curPath, name] = match;
   const enPath = encodeURIComponent(curPath);
-  mircoList += `- [${name}](${basePath}${enPath})\n`;
+  microList += `- [${name?.split('/notes/')?.[1]}](${basePath}${enPath})\n`;
 });
 
+const omdFiles = glob.sync(path.join(__dirname, "../other-md/*.md"));
+
+let mdList = "";
+
+Object.keys(omdFiles).map((index) => {
+  const entryFile = omdFiles[index];
+  const match = entryFile.match(/\/other-md\/(.*)\/*\.md/);
+  const [curPath, name] = match;
+  const enPath = encodeURIComponent(curPath);
+  mdList += `- [${name}](${basePath}${enPath})\n`;
+});
 
 const readmeTmp = `# micro-frontends-notes
 
@@ -39,15 +47,11 @@ const readmeTmp = `# micro-frontends-notes
 
 ## notes
 
-${mircoList}
+${microList}
 
-## qiankun-notes
+## articles
 
-${qiankunList}
-
-## single-spa-notes
-
-${singleSpaList}
+${mdList}
 
 ## More links
 
