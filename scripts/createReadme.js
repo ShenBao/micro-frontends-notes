@@ -14,7 +14,7 @@ Object.keys(mdFiles).map((index) => {
   const match = entryFile.match(/\/notes\/(.*)\/*\.md/);
   const [curPath, name] = match;
   const enPath = encodeURIComponent(curPath);
-  microList += `- [${name?.split('/notes/')?.[1]}](${basePath}${enPath})\n`;
+  microList += `- [${name}](${basePath}${enPath})\n`;
 });
 
 const omdFiles = glob.sync(path.join(__dirname, "../other-md/*.md"));
