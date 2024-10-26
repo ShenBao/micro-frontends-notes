@@ -9,6 +9,8 @@ https://github.com/a1029563229/micro-front-template
 - https://github.com/WangHao1221/micro-front-end ： 包含single-spa和阿里乾坤
 - https://github.com/Charles-1999/mirco-frontend-demo
 
+- https://juejin.cn/post/7428554743519248403?utm_source=gold_browser_extension
+
 ## 文章
 
 什么是微前端

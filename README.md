@@ -13,6 +13,7 @@
 - [icestark](https://github.com/ice-lab/icestark)
 - [emp](https://github.com/efoxTeam/emp)
 - [alibabacloud-alfa](https://github.com/aliyun/alibabacloud-alfa)
+- Webpack5 Module federation
 
 ## notes
 
