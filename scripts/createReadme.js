@@ -17,13 +17,13 @@ Object.keys(mdFiles).map((index) => {
   microList += `- [${name}](${basePath}${enPath})\n`;
 });
 
-const omdFiles = glob.sync(path.join(__dirname, "../other-md/*.md"));
+const omdFiles = glob.sync(path.join(__dirname, "../notes-md/*.md"));
 
 let mdList = "";
 
 Object.keys(omdFiles).map((index) => {
   const entryFile = omdFiles[index];
-  const match = entryFile.match(/\/other-md\/(.*)\/*\.md/);
+  const match = entryFile.match(/\/notes-md\/(.*)\/*\.md/);
   const [curPath, name] = match;
   const enPath = encodeURIComponent(curPath);
   mdList += `- [${name}](${basePath}${enPath})\n`;
@@ -39,11 +39,13 @@ const readmeTmp = `# micro-frontends-notes
     - [English](https://single-spa.js.org/docs/)
     - [中文](https://zh-hans.single-spa.js.org/docs/)
 - [qiankun](https://qiankun.umijs.org/)
-- [micro-app](https://github.com/micro-zoe/micro-app)
+- [micro-app](https://github.com/jd-opensource/micro-app)
 - [wujie](https://wujie-micro.github.io/doc/)
 - [icestark](https://github.com/ice-lab/icestark)
 - [emp](https://github.com/efoxTeam/emp)
 - [alibabacloud-alfa](https://github.com/aliyun/alibabacloud-alfa)
+- [Garfish](https://github.com/bytedance/garfish)
+- [Piral](https://docs.piral.io/)
 
 ## notes
 

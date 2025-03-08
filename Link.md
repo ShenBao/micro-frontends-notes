@@ -49,6 +49,15 @@ https://github.com/fengshi123/blog/issues/21
 一.为什么放弃了qiankun
 https://blog.51cto.com/u_15281962/2955699
 
+微前端五大门派大 Battle
+https://juejin.cn/post/7338230967390224435?utm_source=gold_browser_extension
+
+2025年再看微前端框架技术选型：深度对比与趋势分析
+https://juejin.cn/post/7475285112759844915?utm_source=gold_browser_extension
+
+字节前端面试提问：微应用的实现方式有哪些？
+https://juejin.cn/post/7491231734974988325?utm_source=gold_browser_extension
+
 
 ## 微前端脚手架
 
